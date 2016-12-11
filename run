@@ -1,0 +1,1 @@
+spark-submit --class Spark.reduce.KNN --master local[4] reduce-0.0.1-SNAPSHOT.jar /home/liangxu/workspace/Spark/reduce/datasets/small.arff /home/liangxu/workspace/Spark/reduce/test/smallTest1.arff 8 > outputfile
